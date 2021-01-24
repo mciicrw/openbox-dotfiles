@@ -1,0 +1,17 @@
+# GIMP user context
+
+(tool "gimp-move-tool")
+(paint-info "gimp-paintbrush")
+(foreground (color-rgb 1 1 1))
+(background (color-rgb 0.015686275437474251 0.015686275437474251 0.015686275437474251))
+(opacity 0.52900000000000003)
+(brush "2. Hardness 075")
+(dynamics "Basic Dynamics")
+(mybrush "100% Opaque")
+(pattern "Stripes")
+(gradient "Custom")
+(palette "Default")
+(font "Bebas Neue")
+(tool-preset "Core Pointer")
+
+# end of user context

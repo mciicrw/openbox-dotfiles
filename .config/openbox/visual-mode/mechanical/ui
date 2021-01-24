@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Mechanical Theme UI
+
+# Background Handler
+nitrogen --set-zoom-fill --save ~/.wallpaper/communautique.png
+
+# Panel
+tint2 -c ~/.config/tint2/idk.tint2rc &
+
+# Notification Daemon
+dunst -config ~/.config/dunst/dunstrc-dark &

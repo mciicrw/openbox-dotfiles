@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Crimson
+Comment=Crimson-ish color theme based on owl4ce's Fleon
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Crimson
+IconTheme=Adwaita
+CursorTheme=Adwaita
+CursorSize=24

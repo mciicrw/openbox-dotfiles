@@ -1,0 +1,168 @@
+# Joy
+# Copyright (C) 2020 owl4ce
+#
+# Yet another Joystick Icon Openbox Theme
+# GPL License, so you can edit this themes as you want..
+# --------------------------------------------------------
+# https://github.com/owl4ce/yet-another-obt
+
+# Window Appearance
+padding.width: 9
+padding.height: 7
+
+## Titlebar
+window.active.title.bg: flat
+window.active.title.bg.color: #471f28
+window.inactive.title.bg: flat
+window.inactive.title.bg.color: #471f28
+
+## Titlebar Text
+window.label.text.justify: center
+window.active.label.bg: parentrelative
+window.active.label.text.color: #471f28
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #471f28
+
+## Borders
+border.width: 0
+window.active.border.color: #471f28
+window.inactive.border.color: #471f28
+
+## Handle
+window.handle.width: 0
+window.active.handle.bg: flat
+window.active.handle.bg.color: #edb065
+window.inactive.handle.bg: flat
+window.inactive.handle.bg.color: #471f28
+
+## Client
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.active.client.color:  #471f28
+window.inactive.client.color:  #471f28
+
+## Grip
+window.active.grip.bg: flat
+window.active.grip.bg.color: #eca844
+window.inactive.grip.bg: flat
+window.inactive.grip.bg.color: #471f28
+
+# --------------------------------------------------------
+
+# Window Buttons
+window.*.button.*.bg: parentrelative
+window.*.button.*.pressed.bg: flat
+
+## Active Universal
+window.active.button.*.hover.bg: flat
+window.active.button.*.hover.bg: parentrelative
+window.active.button.*.hover.image.color: #e48187
+window.active.button.*.hover.bg.color: #a75e61
+window.active.button.*.pressed.image.color: #edb065
+window.active.button.*.pressed.bg.color: #a75e61
+window.active.button.toggled.hover.image.color: #e48187
+window.active.button.toggled.image.color: #eca844
+window.active.button.toggled.pressed.image.color: #eca844
+window.active.button.disabled.image.color: #e48187
+
+## Inactive Universal
+window.inactive.button.*.hover.bg: flat
+window.inactive.button.*.hover.bg: parentrelative
+window.inactive.button.*.hover.image.color: #e48187
+window.inactive.button.*.hover.bg.color: #a75e61
+window.inactive.button.*.pressed.image.color: #edb065
+window.inactive.button.*.pressed.bg.color: #a75e61
+window.inactive.button.toggled.hover.image.color: #e48187
+window.inactive.button.toggled.image.color: #e48187
+window.inactive.button.toggled.pressed.image.color: #eca844
+window.inactive.button.disabled.image.color: #e48187
+
+## Close Button
+window.active.button.close.unpressed.image.color: #ecad50
+window.active.button.close.pressed.image.color: #ecad50
+window.active.button.close.pressed.bg.color: #471f28
+window.inactive.button.close.unpressed.image.color: #e48187
+window.inactive.button.close.pressed.image.color: #e48187
+window.inactive.button.close.pressed.bg.color: #471f28
+
+## Maximize Button
+window.active.button.max.unpressed.image.color: #eca844
+window.active.button.max.pressed.image.color: #eca844
+window.active.button.max.pressed.bg.color: #471f28
+window.inactive.button.max.unpressed.image.color: #e48187
+window.inactive.button.max.pressed.image.color: #e48187
+window.inactive.button.max.pressed.bg.color: #471f28
+
+## Iconify Button (Minimize)
+window.active.button.iconify.unpressed.image.color: #edb065
+window.active.button.iconify.pressed.image.color: #edb065
+window.active.button.iconify.pressed.bg.color: #471f28
+window.inactive.button.iconify.unpressed.image.color: #e48187
+window.inactive.button.iconify.pressed.image.color: #e48187
+window.inactive.button.iconify.pressed.bg.color: #471f28
+
+## Shade Button (Roll up)
+window.active.button.shade.unpressed.image.color: #ecd0c4
+window.active.button.shade.pressed.image.color: #ecd0c4
+window.active.button.shade.pressed.bg.color: #471f28
+window.inactive.button.shade.unpressed.image.color: #e48187
+window.inactive.button.shade.pressed.image.color: #e48187
+window.inactive.button.shade.pressed.bg.color: #471f28
+
+## Desk Button (Omnipresents)
+window.active.button.desk.unpressed.image.color: #ecd0c4
+window.active.button.desk.pressed.image.color: #ecd0c4
+window.active.button.desk.pressed.bg.color: #471f28
+window.inactive.button.desk.unpressed.image.color: #e48187
+window.inactive.button.desk.pressed.image.color: #e48187
+window.inactive.button.desk.pressed.bg.color: #471f28
+
+# --------------------------------------------------------
+
+# Openbox Menu
+menu.overlap.x: -8
+
+## Separator
+menu.separator.padding.height: 2
+menu.separator.color: #a75e61
+
+## Border
+menu.border.width: 5
+menu.border.color: #471f28
+
+## Title
+menu.title.bg: flat
+menu.title.bg.color: #682d3b
+menu.title.text.color: #ecad50
+menu.title.text.justify: center
+
+## Items
+menu.items.bg: flat
+menu.items.bg.color: #471f28
+menu.items.text.color: #e5e9f0
+menu.items.justify: left
+menu.items.disabled.text.color: #e48187
+menu.items.active.bg: flat
+menu.items.active.bg.color: #471f28
+menu.items.active.text.color: #edb065
+
+# --------------------------------------------------------
+
+# On Screen Display (OSD)
+osd.bg: flat solid
+osd.bg.color: #a75e61
+
+## Border
+osd.border.width: 5
+osd.border.color: #a75e61
+
+## Label
+osd.label.bg: flat solid
+osd.label.bg.color: #a75e61
+osd.label.text.color: #e5e9f0
+
+## Hightlight/U
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: #edb065
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #471f28

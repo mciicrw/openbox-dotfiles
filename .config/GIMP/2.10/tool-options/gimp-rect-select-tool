@@ -1,0 +1,8 @@
+# GIMP gimp-rect-select-tool options
+
+(fixed-rule size)
+(feather-radius 47.600000000000001)
+(round-corners yes)
+(corner-radius 0)
+
+# end of gimp-rect-select-tool options

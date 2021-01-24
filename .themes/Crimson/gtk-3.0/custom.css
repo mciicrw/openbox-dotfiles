@@ -1,0 +1,78 @@
+/* Custom Settings */
+.text-button {
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.text-button:checked {
+  background: #471f28;
+  border-radius: 6px;
+}
+
+.text-button:hover {
+  color: #e18359;
+  transition: 0.3s;
+}
+
+.image-button {
+  color: #cd7c6a;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding-left: 1px;
+  padding-right: 1px;
+  transition: 0.3s;
+  border-radius: 99px;
+}
+
+.image-button:hover {
+  background: #de7d82;
+  transition: 0.3s;
+}
+
+.image-button:checked {
+  color: #ecd0c4;
+  background: #471f28;
+}
+
+.image-button:disabled {
+  color: #de7d82;
+}
+
+.titlebar {
+  min-height: 48px;
+  box-shadow: none;
+}
+
+/**********
+ * Thunar *
+ **********/
+.thunar #location-toolbar {
+  border-bottom: 1px solid rgba(0,0,0,0);
+}
+
+.thunar .standard-view.frame {
+  border-style: none;
+}
+
+.thunar .sidebar {
+    background-image:url("../gtk-assets/thunar-sidebar.png");
+}
+
+.thunar .sidebar .view {
+    color: #ecd0c4;
+    background: transparent;
+}
+
+.thunar .sidebar .view:not(:selected) {
+  background-color: transparent;
+}
+
+.thunar statusbar {
+  margin: 0 -10px;
+  padding: 0 4px;
+  border-top: 1px solid rgba(0,0,0,0);
+}

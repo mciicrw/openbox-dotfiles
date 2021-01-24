@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+# Eyecandy Theme Setter
+
+# GTK
+sed -i 's_Fleon_Sweetly_' ~/{.gtkrc-2.0,.config/gtk-3.0/settings.ini}
+
+# Icon
+sed -i 's_Papirus-Dark-Custom_Papirus-Custom_' ~/{.gtkrc-2.0,.config/gtk-3.0/settings.ini,.config/qt5ct/qt5ct.conf}
+
+# Openbox
+sed -i 's_Joy_Lovely_' ~/.config/openbox/rc.xml
+
+# Rofi
+sed -i 's_fullscreen-dark_fullscreen_' ~/.config/rofi/themes/shared/settings.rasi
+sed -i 's_sidebar-dark_sidebar_' ~/.config/rofi/themes/sidebar/colors.rasi
+
+# Set Openbox Margin
+sed -i 's_<left>55</left>_<left>10</left>_' ~/.config/openbox/rc.xml
+sed -i 's_<bottom>10</bottom>_<bottom>55</bottom>_' ~/.config/openbox/rc.xml
+
+# Reconfigure Openbox
+openbox --reconfigure

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# Mechanical Theme UI
+
+# Background Handler
+feh --bg-fill ~/.wallpaper/elaina-darken.png
+
+# Panel
+tint2 -c ~/.config/tint2/elaina.tint2rc &
+tint2 -c ~/.config/tint2/elaina-2.tint2rc &
+tint2 -c ~/.config/tint2/elaina-3.tint2rc &
+
+# Notification Daemon
+dunst -config ~/.config/dunst/dunstrc-dark &

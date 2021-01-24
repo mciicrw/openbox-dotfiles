@@ -1,0 +1,44 @@
+# settings
+
+(GimpGegl-gegl-saturation-config "2020-09-09 20:28:59"
+    (time 1599658139)
+    (scale 0.88100000000000001)
+    (colorspace Native))
+(GimpGegl-gegl-saturation-config "2020-09-09 20:21:05"
+    (time 1599657665)
+    (scale 0.91700000000000004)
+    (colorspace Native))
+(GimpGegl-gegl-saturation-config "2020-09-09 20:20:14"
+    (time 1599657614)
+    (scale 0.93500000000000005)
+    (colorspace Native))
+(GimpGegl-gegl-saturation-config "2020-09-05 10:22:52"
+    (time 1599276172)
+    (scale 0)
+    (colorspace Native))
+(GimpGegl-gegl-saturation-config "2020-07-05 04:53:13"
+    (time 1593899593)
+    (scale 0.80000000000000004)
+    (colorspace Native))
+(GimpGegl-gegl-saturation-config "2020-07-05 04:51:30"
+    (time 1593899490)
+    (scale 1.5)
+    (colorspace Native))
+(GimpGegl-gegl-saturation-config "2020-06-21 21:05:21"
+    (time 1592748321)
+    (scale 2.1419999999999999)
+    (colorspace Native))
+(GimpGegl-gegl-saturation-config "2020-06-03 10:27:52"
+    (time 1591154872)
+    (scale 0.90000000000000002)
+    (colorspace Native))
+(GimpGegl-gegl-saturation-config "2020-06-01 16:09:38"
+    (time 1591002578)
+    (scale 1)
+    (colorspace Native))
+(GimpGegl-gegl-saturation-config "2020-06-01 16:02:40"
+    (time 1591002160)
+    (scale 0.75)
+    (colorspace Native))
+
+# end of settings

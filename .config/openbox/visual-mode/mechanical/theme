@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+# Mechanical Theme Setter
+
+# GTK
+sed -i 's_Sweetly_Fleon_' ~/{.gtkrc-2.0,.config/gtk-3.0/settings.ini}
+
+# Icon
+sed -i 's_Papirus-Custom_Papirus-Dark-Custom_' ~/{.gtkrc-2.0,.config/gtk-3.0/settings.ini,.config/qt5ct/qt5ct.conf}
+
+# Openbox
+sed -i 's_Lovely_Joy_' ~/.config/openbox/rc.xml
+
+# Rofi
+sed -i 's_fullscreen_fullscreen-dark_' ~/.config/rofi/themes/shared/settings.rasi
+sed -i 's_sidebar_sidebar-dark_' ~/.config/rofi/themes/sidebar/colors.rasi
+
+# Set Openbox Margin
+sed -i 's_<top>10</top>_<top>30</top>_' ~/.config/openbox/rc.xml
+sed -i 's_<bottom>55</bottom>_<bottom>10</bottom>_' ~/.config/openbox/rc.xml
+
+# Reconfigure Openbox
+openbox --reconfigure

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# Mechanical Theme UI
+
+# Background Handler
+feh --bg-fill ~/.wallpaper/aocchi.png
+~/Documents/feh-blur-wallpaper/feh-blur -b 4 -d 
+
+# Panel
+tint2 -c ~/.config/tint2/aocchi.tint2rc &
+tint2 -c ~/.config/tint2/aocchi-2.tint2rc &
+
+# Notification Daemon
+dunst -config ~/.config/dunst/dunstrc-aocchi &
