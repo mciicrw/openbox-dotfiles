@@ -27,7 +27,7 @@ Screenshots soon™
 ## Dependencies (Manual install/PPA)
 - [obmenu-generator](https://github.com/trizen/obmenu-generator) (probably discontinued, use xmenu instead)
 - [picom](https://github.com/yshui/picom) [(Focal's PPA)](https://launchpad.net/~spvkgn/+archive/ubuntu/ppa) (if you using 20.10 you can install this from Apt)
-- [pamixer](https://github.com/cdemoulins/pamixer) [Focal's PPA](https://launchpad.net/~dysfunctionalprogramming/+archive/ubuntu/pamixer)
+- [pamixer](https://github.com/cdemoulins/pamixer) [(Focal's PPA)](https://launchpad.net/~dysfunctionalprogramming/+archive/ubuntu/pamixer)
 
 ## How to install
 1. Install all the dependencies
