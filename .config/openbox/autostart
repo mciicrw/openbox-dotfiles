@@ -16,7 +16,8 @@ bash ~/.config/openbox/tray
 picom -b
 
 # Policy Kit
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+lxpolkit
 
 # Power Manager
 xfce4-power-manager &

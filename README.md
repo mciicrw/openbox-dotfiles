@@ -21,6 +21,7 @@ Screenshots soon™
 - feh
 - gsimplecal
 - playerctl
+- lxpolkit
 
 
 
