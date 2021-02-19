@@ -13,6 +13,7 @@ UPDATE Feb 19, 2021: Because i moved to Arch Linux yesterday, so i'll update dep
 - tint2
 - ncmpcpp
 - mpd
+- mpc
 - oh-my-zsh
 - neovim
 - urxvt
@@ -22,13 +23,20 @@ UPDATE Feb 19, 2021: Because i moved to Arch Linux yesterday, so i'll update dep
 - gsimplecal
 - playerctl
 - lxsession
-
+- lxappearance
+- lightdm
+- lihtdm-webkit2-greeter
+- light-lock
 
 
 ## Dependencies (Manual install/PPA)
 - [obmenu-generator](https://github.com/trizen/obmenu-generator) (probably discontinued, use [xmenu](https://github.com/phillbush/xmenu) instead)
 - [picom](https://github.com/yshui/picom) [(Focal's PPA)](https://launchpad.net/~spvkgn/+archive/ubuntu/ppa) (if you using 20.10 you can install this from Apt)
 - [pamixer](https://github.com/cdemoulins/pamixer) [(Focal's PPA)](https://launchpad.net/~dysfunctionalprogramming/+archive/ubuntu/pamixer)
+
+### Optional
+- [Login Manager LightDM Webkit Theme](https://github.com/jelenis/login-manager)
+- [Bibata Cursor Theme](https://aur.archlinux.org/packages/bibata-cursor-theme-bin) [(Github Repo)](https://github.com/fu1e5/Bibata_cursor)
 
 ## How to install
 1. Install all the dependencies

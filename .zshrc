@@ -99,10 +99,11 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias launcher="~/launcher"
-alias pm="~/Documents/pulsemixer/pulsemixer"
+alias pm="pulsemixer"
 alias anbox="/snap/bin/anbox launch --package=org.anbox.appmgr --component=org.anbox.appmgr.AppViewActivity"
 alias ncmpalbum="ncmpcpp -c ~/.ncmpcpp/albumart"
-#alias vim="nvim"
+alias vim="nvim"
+alias neofetch="neofetch --w3m ~/Downloads/elaina.png"
 
 #prompt_context() {
 #  if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then

@@ -1,7 +1,7 @@
 !! URxvt Appearance
 ! ---
-URxvt.font:                       xft:Fira Mono:size=11,xft:Fira Mono for Powerline:size=11,xft:mplus Nerd Font Mono:size=11
-URxvt.geometry:                   87x17
+URxvt.font:                       xft:Fira Code:size=10,xft:mplus Nerd Font Mono:size=10
+URxvt.geometry:                   76x17
 URxvt.internalBorder:             20
 URxvt.cursorBlink:                true
 URxvt.cursorUnderline:            true
