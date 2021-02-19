@@ -1,7 +1,7 @@
 # openbox-dotfiles
 My openbox theme dotfiles themes.
 
-Screenshots soon™
+UPDATE Feb 19, 2021: Because i moved to Arch Linux yesterday, so i'll update dependencies to match arch's repo & AUR soon™
 
 ## Dependencies (Apt, Ubuntu 20.04)
 - clipit
@@ -21,7 +21,7 @@ Screenshots soon™
 - feh
 - gsimplecal
 - playerctl
-- lxpolkit
+- lxsession
 
 
 

@@ -16,8 +16,7 @@ bash ~/.config/openbox/tray
 picom -b
 
 # Policy Kit
-#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-lxpolkit
+lxpolkit &
 
 # Power Manager
 xfce4-power-manager &
@@ -33,4 +32,5 @@ autocutsel &
 xinput set-prop "ETPS/2 Elantech Touchpad" "libinput Tapping Enabled" 1 &
 xinput set-prop "ETPS/2 Elantech Touchpad" "libinput Natural Scrolling Enabled" 1 &
 xinput set-prop "Logitech G102 Prodigy Gaming Mouse" "libinput Accel Profile Enabled" 0, 1 &
+xinput set-prop "Logitech G102 Prodigy Gaming Mouse" "libinput Accel Speed" 0.2 &
  
