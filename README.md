@@ -32,7 +32,7 @@ UPDATE Feb 19, 2021: Because i moved to Arch Linux yesterday, so i'll update dep
 - python2
 - obmenu-generator([AUR](https://aur.archlinux.org/packages/obmenu-generator/) only) (probably discontinued, use `menumaker` instead) 
 - picom ([Focal's PPA](https://launchpad.net/~spvkgn/+archive/ubuntu/ppa), if you using 20.10 you can install this from Apt)
-- pamixer ([(Focal's PPA)](https://launchpad.net/~dysfunctionalprogramming/+archive/ubuntu/pamixer))
+- pamixer ([Focal's PPA](https://launchpad.net/~dysfunctionalprogramming/+archive/ubuntu/pamixer))
 
 ### Optional
 - [Login Manager LightDM Webkit Theme](https://github.com/jelenis/login-manager)
@@ -54,3 +54,7 @@ Shirin's base theme (Communautique)
 
 Elaina (Nord mix theme)
 ![Elaina](screenshots/Elaina.png)
+
+## TODO
+- [ ] Adding install script for arch
+- [ ] Update install script for ubuntu-based
