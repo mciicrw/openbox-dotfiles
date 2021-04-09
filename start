@@ -1,0 +1,56 @@
+#!/usr/bin/env bash
+
+clear
+if ! timeout 1s xset 1 &>/dev/null;
+then
+    echo -e "\e[92mWelcome Shirin!"
+    echo -e "What session do you want to start?"
+    echo 
+    echo -e "\e[95m1. Openbox"
+    echo -e "2. pekwm"
+    echo -e "3. Awesome"
+    echo -e "4. i3wm"
+    echo 
+    echo -e "\e[31mQ. Quit"
+    echo
+    echo -e "\e[93mInput number: "
+    while true; do
+    read opt
+        if [[ "$opt" == 1 ]];
+        then
+            echo -e "launching Openbox"
+            startx ~/.xinitrc openbox
+            clear
+            exit
+        elif [[ "$opt" == 2 ]];
+        then
+            echo -e "Launching pekwm"
+            startx ~/.xinitrc pekwm
+            clear
+            exit
+        elif [[ "$opt" == 3 ]];
+        then
+            echo -e "Launching Awesome"
+            startx ~/.xinitrc awesome
+            clear
+            exit
+        elif [[ "$opt" == 4 ]];
+        then
+            echo -e "Launching i3WM"
+            startx ~/.xinitrc i3wm
+            clear
+            exit
+        elif [[ "$opt" == "q" || "$opt" == "Q" ]];
+        then
+            clear 
+            echo -e "Have a good day!"
+            exit
+        else
+            echo -e "option invalid"
+        fi
+    done
+else 
+    echo -e "\e[31mXserver is running at $DISPLAY"
+    echo -e "Exiting"
+    exit
+fi

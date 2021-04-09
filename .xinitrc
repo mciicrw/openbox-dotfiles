@@ -8,6 +8,9 @@ xrandr --auto
 #   /sbin/prime-offload
 #fi
 
+# dbus
+# dbus-launch --exit-with-x11
+
 # Load Xresources
 [[ -f ~/.Xresources ]] && xrdb ~/.Xresources
 
@@ -15,7 +18,17 @@ xrandr --auto
 export QT_QPA_PLATFORMTHEME=qt5ct
 
 # Others
-bash -c 'xset m 70/10 1 r rate 500 30 b on'
+#bash -c 'xset m 70/10 1 r rate 500 30 b on'
 
 # SLiM Select Sessions login command
-exec 1$
+#dbus-launch --exit-with-session awesome
+
+session=${1:-openbox}
+
+case $session in 
+    openbox     ) dbus-launch --exit-with-session openbox-session;;
+    pekwm       ) dbus-launch --exit-with-session pekwm;;
+    awesome|awm ) dbus-launch --exit-with-session awesome;;
+    i3wm        ) dbus-launch --exit-with-session i3;;
+    *           ) exec $1;;
+esac

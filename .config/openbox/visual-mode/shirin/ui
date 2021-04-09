@@ -6,7 +6,7 @@
 feh --bg-fill ~/.wallpaper/communautique.png
 
 # Panel
-tint2 -c ~/.config/tint2/idk.tint2rc &
+polybar -c ~/.config/polybar/Shirin/main.ini main &
 
 # Notification Daemon
 dunst -config ~/.config/dunst/dunstrc-dark &

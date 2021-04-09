@@ -63,6 +63,7 @@ hi User1 ctermfg=black ctermbg=magenta
 hi User2 ctermfg=NONE ctermbg=NONE
 hi User3 ctermfg=black ctermbg=blue
 hi User4 ctermfg=black ctermbg=cyan
+hi User5 ctermfg=black ctermbg=green
 set statusline=\                    " Padding
 set statusline+=%f                  " Path to the file
 set statusline+=\ %1*\              " Padding & switch colour
@@ -70,13 +71,16 @@ set statusline+=%y                  " File type
 set statusline+=\ %2*\              " Padding & switch colour
 set statusline+=%=                  " Switch to right-side
 set statusline+=\ %3*\              " Padding & switch colour
-set statusline+=line                " of Text
-set statusline+=\                   " Padding
 set statusline+=%l                  " Current line
+set statusline+=:                   " separator
+set statusline+=%c                  " Current Column
 set statusline+=\ %4*\              " Padding & switch colour
+set statusline+=%p                  " Percentage through file
+set statusline+=%%                  " Percent sign text
+set statusline+=\ %5*\              " Padding & switch color
 set statusline+=of                  " of Text
 set statusline+=\                   " Padding
-set statusline+=%L                  " Total line
+set statusline+=%L                  " Total Line
 set statusline+=\                   " Padding
 
 " Encoding

@@ -17,7 +17,7 @@ URxvt.iconFile:                   /home/shirin/.term.png
 URxvt.letterSpace:		  0
 
 !! URxvt Extensions
-! LOADED EXTENSION
+! LOADED EXTENSIONS
 URxvt.perl-ext-common:            default,clipboard,keyboard-select,url-select,tabbedex
 
 ! TABBED EX
@@ -64,48 +64,44 @@ URxvt.keysym.Control-question:    resize-font:show
 !! Color Scheme
 ! BLACK > RED > GREEN > YELLOW > BLUE > MAGENTA > CYAN > WHITE
 ! ---
-#define pallete0                  #373E4D
-#define pallete1                  #3B4252
-#define pallete2                  #434C5E
-#define pallete3                  #4C566A
-#define pallete4                  #FA5AA4
-#define pallete5                  #FA74B2
-#define pallete6                  #2BE491
-#define pallete7                  #44EB9F
-#define pallete8                  #FA946E
-#define pallete9                  #FAA687
-#define pallete10                 #63C5EA
-#define pallete11                 #7ACBEA
-#define pallete12                 #CF8EF4
-#define pallete13                 #D8A6F4
-#define pallete14                 #89CCF7
-#define pallete15                 #A1D5F7
-#define pallete16                 #EDFEFE
+#define nyarch0 		#2a2e30
+#define nyarch1 		#f46169
+#define nyarch2 		#c5e88c
+#define nyarch3 		#fce798
+#define nyarch4 		#7bcdcb
+#define nyarch5 		#cc8eef
+#define nyarch6 		#abddf8
+#define nyarch7 		#e1e6e8
+#define nyarch8 		#414547
+#define nyarch9 		#f27c82
+#define nyarch10 		#e0fab6
+#define nyarch11 		#fff0b8
+#define nyarch12 		#b2dbda
+#define nyarch13 		#deacfa
+#define nyarch14 		#c4ebff
+#define nyarch15 		#eaf0f2
 
-*.foreground:                     pallete16
-*.background:                     pallete0
-*.cursorColor:                    pallete16
-!*fading:                          35
-!*fadeColor:                       pallete2
+*.foreground:   	nyarch0
+*.background:  		nyarch15
+*.cursorColor:  	nyarch0
+!*fading: 		35
+!*fadeColor: 		nyarch3
 
-*.color0:                         pallete0
-*.color1:                         pallete4
-*.color2:                         pallete6
-*.color3:                         pallete8
-*.color4:                         pallete10
-*.color5:                         pallete12
-*.color6:                         pallete14
-*.color7:                         pallete16
-
-*.color8:                         pallete3
-*.color9:                         pallete5
-*.color10:                        pallete7
-*.color11:                        pallete9
-*.color12:                        pallete11
-*.color13:                        pallete13
-*.color14:                        pallete15
-*.color15:                        pallete16
-
+*.color0: 		nyarch0
+*.color1:		nyarch1
+*.color2: 		nyarch2
+*.color3: 		nyarch3
+*.color4: 		nyarch4
+*.color5: 		nyarch5
+*.color6: 		nyarch6
+*.color7: 		nyarch7
+*.color8: 		nyarch8
+*.color9: 		nyarch9
+*.color10: 		nyarch10
+*.color11: 		nyarch11
+*.color12: 		nyarch12
+*.color13: 		nyarch13
+*.color14: 		nyarch14
+*.color15: 		nyarch15
 
 Xcursor.theme: Bibata-Modern-Classic
-

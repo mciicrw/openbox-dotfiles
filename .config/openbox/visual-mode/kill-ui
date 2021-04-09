@@ -5,7 +5,7 @@
 tray="$(cat ~/.config/openbox/tray | awk -F' ' '{print $1}')"
 
 ## Panel
-killall tint2
+killall polybar
 
 ## Tray
 killall  $tray

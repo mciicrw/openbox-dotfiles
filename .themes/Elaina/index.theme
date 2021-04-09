@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Elaina
+Comment=Elaina Theme based on Nordic Theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Elaina
+IconTheme=Adwaita
+CursorTheme=Adwaita
+ButtonLayout=:minimize,maximize,close
+CursorSize=16

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# Mechanical Theme Setter
+# Shirin Theme Setter
 
 # GTK
-sed -i 's_Nordic-darker_Fleon_' ~/{.gtkrc-2.0,.config/gtk-3.0/settings.ini}
+sed -i 's_Elaina_Shirin_' ~/{.gtkrc-2.0,.config/gtk-3.0/settings.ini}
 
 # Icon
 sed -i 's_Papirus-Custom_Papirus-Dark-Custom_' ~/{.gtkrc-2.0,.config/gtk-3.0/settings.ini,.config/qt5ct/qt5ct.conf}
@@ -11,13 +11,17 @@ sed -i 's_Papirus-Custom_Papirus-Dark-Custom_' ~/{.gtkrc-2.0,.config/gtk-3.0/set
 # Openbox
 sed -i 's_Elaina_Shirin_' ~/.config/openbox/rc.xml
 
-# Rofi
-sed -i 's_fullscreen-crimson_fullscreen-dark_' ~/.config/rofi/themes/shared/settings.rasi
-sed -i 's_sidebar-crimson_sidebar-dark_' ~/.config/rofi/themes/sidebar/colors.rasi
+# Rofi (not fixed yet, will edit later)
+# sed -i 's_fullscreen-crimson_fullscreen-dark_' ~/.config/rofi/themes/shared/settings.rasi
+# sed -i 's_sidebar-crimson_sidebar-dark_' ~/.config/rofi/themes/sidebar/colors.rasi
 
 # Set Openbox Margin
 sed -i 's_<top>10</top>_<top>30</top>_' ~/.config/openbox/rc.xml
 sed -i 's_<bottom>40</bottom>_<bottom>10</bottom>_' ~/.config/openbox/rc.xml
+
+# Xresources 
+cp ~/.resources/.Xresources-shirin ~/.Xresources
+xrdb ~/.Xresources
 
 # Reconfigure Openbox
 openbox --reconfigure

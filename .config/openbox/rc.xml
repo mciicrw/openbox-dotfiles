@@ -121,18 +121,16 @@
   </resize>
   <!-- You can reserve a portion of your screen where windows will not cover when they are maximized, or when they are initially placed. Many programs reserve space automatically, but you can use this in other cases. -->
   <margins>
-     <!-- original value -->
-     <top>10</top>
+    <!-- original value -->
+    <top>10</top>
     <bottom>40</bottom>
     <left>10</left>
-    <right>10</right> 
-
-<!-- custom value
+    <right>10</right>
+    <!-- custom value
     <top>10</top>
     <bottom>40</bottom>
     <left>55</left>
     <right>10</right> -->
-
   </margins>
   <dock>
     <position>Bottom</position>
@@ -262,7 +260,7 @@
         <bottom>5</bottom>
       </action>
     </keybind>
-     <keybind key="W-S-A-Down">
+    <keybind key="W-S-A-Down">
       <action name="ResizeRelative">
         <bottom>-5</bottom>
       </action>
@@ -272,7 +270,7 @@
         <right>5</right>
       </action>
     </keybind>
-     <keybind key="W-S-A-Right">
+    <keybind key="W-S-A-Right">
       <action name="ResizeRelative">
         <right>-5</right>
       </action>
@@ -282,7 +280,7 @@
         <top>5</top>
       </action>
     </keybind>
-     <keybind key="W-S-A-Up">
+    <keybind key="W-S-A-Up">
       <action name="ResizeRelative">
         <top>-5</top>
       </action>
@@ -292,7 +290,7 @@
         <left>5</left>
       </action>
     </keybind>
-     <keybind key="W-S-A-Left">
+    <keybind key="W-S-A-Left">
       <action name="ResizeRelative">
         <left>-5</left>
       </action>
@@ -467,7 +465,7 @@
     <!-- run apps -->
     <keybind key="W-l">
       <action name="Execute">
-        <command>slimlock</command>
+        <command>light-locker-command -l</command>
       </action>
     </keybind>
     <keybind key="W-r">
@@ -517,7 +515,7 @@
     </keybind>
     <keybind key="W-Print">
       <action name="Execute">
-        <command>bash -c '~/.config/rofi/scripts/screenshot.sh'</command>
+        <command>bash -c '~/.scripts/shot-seldraw'</command>
       </action>
     </keybind>
   </keyboard>

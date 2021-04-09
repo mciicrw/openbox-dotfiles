@@ -3,8 +3,8 @@ My openbox theme dotfiles themes.
 
 UPDATE Feb 19, 2021: Because i moved to Arch Linux yesterday, so i'll update dependencies to match arch's repo & AUR soon™
 
-## Dependencies (Apt, Ubuntu 20.04)
-- clipit
+## Dependencies (Arch Linux)
+- xclip
 - dunst
 - neofetch
 - openbox
@@ -27,16 +27,18 @@ UPDATE Feb 19, 2021: Because i moved to Arch Linux yesterday, so i'll update dep
 - lightdm
 - lihtdm-webkit2-greeter
 - light-lock
-
-
-## Dependencies (Manual install/PPA)
-- [obmenu-generator](https://github.com/trizen/obmenu-generator) (probably discontinued, use [xmenu](https://github.com/phillbush/xmenu) instead)
-- [picom](https://github.com/yshui/picom) [(Focal's PPA)](https://launchpad.net/~spvkgn/+archive/ubuntu/ppa) (if you using 20.10 you can install this from Apt)
-- [pamixer](https://github.com/cdemoulins/pamixer) [(Focal's PPA)](https://launchpad.net/~dysfunctionalprogramming/+archive/ubuntu/pamixer)
+- polybar
+- dmenu/networkmanager_dmenu
+- python2
+- obmenu-generator([AUR](https://aur.archlinux.org/packages/obmenu-generator/) only) (probably discontinued, use `menumaker` instead) 
+- picom ([Focal's PPA](https://launchpad.net/~spvkgn/+archive/ubuntu/ppa), if you using 20.10 you can install this from Apt)
+- pamixer ([(Focal's PPA)](https://launchpad.net/~dysfunctionalprogramming/+archive/ubuntu/pamixer))
 
 ### Optional
 - [Login Manager LightDM Webkit Theme](https://github.com/jelenis/login-manager)
 - [Bibata Cursor Theme](https://aur.archlinux.org/packages/bibata-cursor-theme-bin) [(Github Repo)](https://github.com/fu1e5/Bibata_cursor)
+- [GIMP](https://gimp.org)
+- pulsemixer (Arch Repo / Ubuntu Repo)
 
 ## How to install
 1. Install all the dependencies

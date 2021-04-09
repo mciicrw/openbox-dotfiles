@@ -9,8 +9,13 @@
 current="$(cat ~/.config/openbox/visual-mode/current)"
 bash ~/.config/openbox/visual-mode/$current/ui
 
+#temp panel
+#xfce4-panel &
+
+
 # Tray
 #bash ~/.config/openbox/tray
+#nm-applet
 
 # Compositor
 picom -b
@@ -22,7 +27,8 @@ lxpolkit &
 xfce4-power-manager &
 
 # Lock Screen Handler
-light-locker &
+#xss-lock -- /usr/bin/slimlock &
+#light-locker &
 
 # Apps & Others (ex:mpd)
 mpd &
@@ -30,9 +36,9 @@ xclip &
 
 # Input Device config
 # Touchpad Natural Scrolling + Tap-to-click
-#xinput set-prop "ETPS/2 Elantech Touchpad" "libinput Tapping Enabled" 1 &
-#xinput set-prop "ETPS/2 Elantech Touchpad" "libinput Natural Scrolling Enabled" 1 &
+xinput set-prop "ETPS/2 Elantech Touchpad" "libinput Tapping Enabled" 1 &
+xinput set-prop "ETPS/2 Elantech Touchpad" "libinput Natural Scrolling Enabled" 1 &
 # Mouse Flat Acceleration + Pointer Speed 
-#xinput set-prop "Logitech G102 Prodigy Gaming Mouse" "libinput Accel Profile Enabled" 0, 1 &
+xinput set-prop "Logitech G102 Prodigy Gaming Mouse" "libinput Accel Profile Enabled" 0, 1 &
 #xinput set-prop "Logitech G102 Prodigy Gaming Mouse" "libinput Accel Speed" 0.2 &
  

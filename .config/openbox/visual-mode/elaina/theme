@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# Mechanical Theme Setter
+# Elaina Theme Setter
 
 # GTK
-sed -i 's_Fleon_Nordic-darker_' ~/{.gtkrc-2.0,.config/gtk-3.0/settings.ini}
+sed -i 's_Shirin_Elaina_' ~/{.gtkrc-2.0,.config/gtk-3.0/settings.ini}
 
 # Icon
 sed -i 's_Papirus-Custom_Papirus-Dark-Custom_' ~/{.gtkrc-2.0,.config/gtk-3.0/settings.ini,.config/qt5ct/qt5ct.conf}
@@ -18,6 +18,10 @@ sed -i 's_Shirin_Elaina_' ~/.config/openbox/rc.xml
 # Set Openbox Margin
 sed -i 's_<top>30</top>_<top>10</top>_' ~/.config/openbox/rc.xml
 sed -i 's_<bottom>10</bottom>_<bottom>40</bottom>_' ~/.config/openbox/rc.xml
+
+# Xresources
+cp ~/.resources/.Xresources-elaina ~/.Xresources
+xrdb ~/.Xresources
 
 # Reconfigure Openbox
 openbox --reconfigure

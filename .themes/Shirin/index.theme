@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Shirin
+Comment=A basic theme based on owl4ce's Fleon
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Fleon
+IconTheme=Adwaita
+CursorTheme=Adwaita
+CursorSize=24
