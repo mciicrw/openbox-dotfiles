@@ -822,9 +822,12 @@
         </action>
       </mousebind>
       <mousebind button="Right" action="Press">
-        <action name="ShowMenu">
-          <menu>root-menu</menu>
+        <action name="Execute">
+          <command>bash -c '~/.config/xmenu/launch.sh'</command>
         </action>
+        <!--<action name="ShowMenu">
+          <menu>root-menu</menu>
+        </action>-->
       </mousebind>
     </context>
     <context name="MoveResize">
